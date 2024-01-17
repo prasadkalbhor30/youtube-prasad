@@ -1,0 +1,17 @@
+.sidebar-element {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 22px;
+}
+
+.sidebar-element label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sidebar-element:hover {
+    background-color: rgb(174, 174, 174);
+}

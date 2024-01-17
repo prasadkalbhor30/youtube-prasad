@@ -1,0 +1,23 @@
+.main-div {
+    display: flex;
+    align-content: center;
+
+}
+
+.sidebar-div {
+    // background-color: aliceblue;
+}
+
+.content-div {
+    width: auto;
+    flex-grow: 1;
+    // background-color: rgb(184, 160, 208);
+}
+
+// .sidebar-collapsed {
+//     width: 6%;
+// }
+
+// .content-expanded {
+//     width: 94%;
+// }

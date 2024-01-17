@@ -1,0 +1,59 @@
+.main-row>* {
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    padding: 5px;
+
+}
+
+.content-block .row h1 {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.content-block .row p {
+    margin: 0;
+}
+
+.content-block .row {
+    height: 30%;
+    margin: 0;
+}
+
+.content-block .row img {
+    width: 65%;
+    border-radius: 50%;
+    margin: 5px 0 0 5px;
+}
+
+
+.mee {
+
+    background-color: red;
+}
+
+.good {
+    background-color: rgb(152, 146, 228);
+}
+
+.bye {
+    background-color: rgb(65, 237, 26);
+}
+
+.hhh {
+    background-color: rgb(17, 57, 8);
+}
+
+.thumbnail-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.mee,
+.good,
+.bye,
+.hhh {
+    width: 50px;
+    height: 50px;
+}

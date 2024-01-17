@@ -1,0 +1,82 @@
+<div class="sidebar" [ngClass]="{'collapsed-sidebar': collapsed}">
+    <div class="main-side-items">
+        <div class="sidebar-element" [ngClass]="{'collapsed-sidebar-element': collapsed}">
+            <div class="icon">
+                <i class="bi bi-house-door-fill"></i>
+            </div>
+            <div class="element-name">
+                <label>Home</label>
+            </div>
+        </div>
+        <div class="sidebar-element" [ngClass]="{'collapsed-sidebar-element': collapsed}">
+            <div class="icon">
+                <i class="bi bi-lightning-charge-fill"></i>
+
+            </div>
+            <div class="element-name">
+                <label>Shorts</label>
+            </div>
+        </div>
+        <div class="sidebar-element" [ngClass]="{'collapsed-sidebar-element': collapsed}">
+            <div class="icon">
+                <i class="bi bi-film"></i>
+            </div>
+            <div class="element-name">
+                <label>Subscriptions</label>
+            </div>
+        </div>
+        <hr *ngIf="!collapsed">
+        <div class="sidebar-element" [ngClass]="{'collapsed-sidebar-element': collapsed}">
+            <div class="icon">
+                <i class="bi bi-layers-fill"></i>
+            </div>
+            <div class="element-name">
+                <label>You</label>
+            </div>
+        </div>
+        <div class="sidebar-element" [ngClass]="{'collapsed-sidebar-element': collapsed}">
+            <div class="icon">
+                <i class="bi bi-clock-history"></i>
+            </div>
+            <div class="element-name">
+                <label>History</label>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="!collapsed">
+        <hr>
+        <div class="col3">
+            <p>Sign in to like videos, comment, and subscribe.</p>
+            <button><i class="bi bi-person-circle"></i>Sign in</button>
+        </div>
+        <hr>
+        <div class="col4">
+            <h3>Explore</h3>
+            <div class="sidebar-element">
+                <div class="icon">
+                    <i class="bi bi-fire"></i>
+                </div>
+                <div class="element-name">
+                    <label>Trending</label>
+                </div>
+            </div>
+            <div class="sidebar-element">
+                <div class="icon">
+                    <i class="bi bi-bag"></i>
+                </div>
+                <div class="element-name">
+                    <label>Shopping</label>
+                </div>
+            </div>
+            <div class="sidebar-element">
+                <div class="icon">
+                    <i class="bi bi-file-earmark-music-fill"></i>
+                </div>
+                <div class="element-name">
+                    <label>Music</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,90 @@
+.sidebar {
+    width: 234px;
+}
+
+.sidebar-element {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 10px;
+
+}
+
+.sidebar-element:hover {
+    background-color: #dedede;
+
+}
+
+.sidebar-element:first-child {
+    margin-top: 10px;
+}
+
+.sidebar-element .icon label {
+    font-weight: bold;
+    display: none;
+}
+
+.sidebar-element .icon {
+    width: 44px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.sidebar-element .element-name {
+    width: auto;
+}
+
+
+
+
+.collapsed-sidebar {
+    width: 74px;
+}
+
+.collapsed-sidebar-element:first-child {
+    margin-top: 2px;
+}
+
+.collapsed-sidebar-element {
+    flex-direction: column;
+    padding: 13px 12px;
+    margin: 0 3px;
+}
+
+.collapsed-sidebar-element .element-name {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+
+
+.col3 {
+    margin: 0 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.col3 button {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 35px;
+    color: #3ea6ff;
+    border: 1px solid gray;
+}
+
+.col3 button i {
+    font-size: 25px;
+    margin-right: 8px;
+    overflow: hidden;
+}

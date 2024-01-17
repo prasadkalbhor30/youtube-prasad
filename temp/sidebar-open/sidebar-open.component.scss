@@ -1,0 +1,58 @@
+.sidebar-element {
+    display: flex;
+    align-items: center;
+    padding: 2px 8px;
+    border-radius: 10px;
+}
+
+.sidebar-element .icon {
+    display: flex;
+    align-items: center;
+    // margin: 8px;
+    font-size: 22px;
+    justify-content: center;
+}
+
+// .sidebar-element .icon i {
+//     text-align: center;
+// }
+
+.sidebar-element .element-name {
+    width: 80%;
+    margin-left: 20PX;
+    font-weight: 500;
+}
+
+// .sidebar-element {
+
+// }
+
+.sidebar-element:hover {
+    background-color: rgb(174, 174, 174);
+}
+
+
+
+
+// ////////////////////////////////////////////
+
+
+
+
+
+
+button {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    font-size: 14px;
+    height: 35px;
+    color: #3ea6ff;
+    border: 1px solid gray;
+}
+
+button i {
+    font-size: 25px;
+    margin-right: 8px;
+    overflow: hidden;
+}
